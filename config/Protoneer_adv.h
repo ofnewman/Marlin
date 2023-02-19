@@ -3338,6 +3338,8 @@
                                                //  (250000 / SPINDLE_LASER_FREQUENCY) = max value.
   #endif
 
+
+  // TODO
   //#define AIR_EVACUATION                     // Cutter Vacuum / Laser Blower motor control with G-codes M10-M11
   #if ENABLED(AIR_EVACUATION)
     #define AIR_EVACUATION_ACTIVE       LOW    // Set to "HIGH" if the on/off function is active HIGH
